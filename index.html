@@ -5,8 +5,44 @@
 		<link rel="stylesheet" href="./style/style.css" />
 	</head>
 	<body ng-controller="mainCtrl">
-		{{test}}
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+
+		<!-- First div, for welcome page. -->
+		<div>
+			<h1>こんにちは!</h1>
+			<h2>(Hello!)</h2>
+			<p>Learning Japanese? Let me help you out.</p>
+			<p>Kanji is easily the most difficult (possibly the only difficult) thing about learning Japanese. Thousands upon thousands of individual characters, and the worst part is that you don't even need them if your only goal is to hold a verbal conversation!</p>
+			<p>But guess what? Every kanji can be broken down into hiragana. If you don't remember that name, hiragana is the syllabary you learned in less than a week and in which you still have trouble with ぬ and め.</p>
+			<p>This website will allow you to do just that. Break the kanji down. Just watch as 日本語 becomes にほんご before your eyes! It's like you're hooked on phonics or something.</p>
+			<p>All of this is made possible by the absolutely excellent goo Labs (aka gooラボ) and several of their top notch APIs. They make their APIs free for me to use, and therefore free for you to use.</p>
+		</div>
+
+		<!-- Second div, for getting started button. -->
+		<div>
+			<button>Enough of this gaijin rambling. Let's convert some kanji!</button>
+		</div>
+
+		<!-- Div for testing the conversion API. -->
+		<div>
+			<input type="text" ng-model="kanjiSentence" placeholder="Kanji please!" />
+			<button ng-click="convertSentence(kanjiSentence)">Submit</button>
+		</div>
+
+		<div>
+			<p class="converted">{{final}}</p>
+		</div>
+
+		<div>
+			<a href="http://www.goo.ne.jp/">
+				<img src="//u.xgoo.jp/img/sgoo.png" alt="supported by goo" title="supported by goo" class="goosupport">
+			</a>
+		</div>
+
+		<script
+		  src="https://code.jquery.com/jquery-3.1.1.min.js"
+		  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		  crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.js"></script>
 		<script src="./js/app.js"></script>
 		<script src="./js/controller.js"></script>
 		<script src="./js/service.js"></script>
