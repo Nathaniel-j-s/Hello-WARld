@@ -15,6 +15,5 @@ angular.module('myApp').controller('mainCtrl', function($scope, mainSrvc) {
   };
 
 
-console.log($scope.final);
 
 });

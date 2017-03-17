@@ -21,6 +21,8 @@ time, mark, audio, video {
 
 .converted {
 	font-size: 40px;
+	color: red;
+	font-family: Hiragino Kaku Gothic Pro;
 }
 
 .goosupport {
