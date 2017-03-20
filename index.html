@@ -3,12 +3,13 @@
 	<head>
 		<title>Kanji to Hiragana Converter</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif">
 		<link rel="stylesheet" href="./style/style.css" />
 	</head>
 	<body ng-controller="mainCtrl">
 
 		<!-- Navbar -->
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default navtest">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -17,12 +18,12 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" ui-sref="welcome">Kanji to Hiragana Converter</a>
+		      <a class="navbar-brand navtest" ui-sref="welcome">Kanji to Hiragana Converter</a>
 		    </div>
 		    <div class="collapse navbar-collapse" id="navbar-collapse">
-		      <ul class="nav navbar-nav">
-		        <li><a ui-sref="welcome">Welcome</a></li>
-		        <li><a ui-sref="converter">Converter</a></li>
+		      <ul class="nav navbar-nav navtest">
+		        <li><a ui-sref="welcome" class="navtest">Welcome</a></li>
+		        <li><a ui-sref="converter" class="navtest">Converter</a></li>
 		      </ul>
 		    </div>
 		  </div>
