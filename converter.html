@@ -1,7 +1,21 @@
 <!-- Div for testing the conversion API. -->
 <div>
-  <input type="text" ng-model="kanjiSentence" placeholder="Kanji please!" />
-  <button ng-click="convertSentence(kanjiSentence)">Convert</button>
+  <img src="./style/japaneseartbg.jpg" class="image-two" />
+</div>
+
+<div class="row">
+  <div class="col-lg-1">
+  </div>
+  <div class="col-lg-9">
+    <div class="input-group">
+      <input type="text" class="form-control" ng-model="kanjiSentence" placeholder="Kanji please! I may take a few seconds to translate.">
+      <span class="input-group-btn">
+        <button ng-click="convertSentence(kanjiSentence)" class="btn btn-default"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></button>
+      </span>
+    </div>
+  </div>
+  <div class="col-lg-1">
+  </div>
 </div>
 
 <div>

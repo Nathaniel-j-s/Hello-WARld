@@ -19,12 +19,107 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+.test {
+	color: #331832;
+	color: #694D75;
+	color: #1B5299;
+	color: #9FC2CC;
+	color: #F1ECCE;
+}
+
+a {
+	color: rgb(80, 44, 14);
+}
+
+body {
+	color: rgb(80, 44, 14);
+	background-color: rgb(204, 204, 204);
+	text-align: center;
+}
+
+h1 {
+	color: rgb(80, 44, 14);
+	margin: 0;
+}
+
+h2 {
+	color: rgb(80, 44, 14);
+	margin: 0;
+	font-family: helvetica;
+}
+
+.image-one {
+	position: fixed;
+	z-index: -1;
+	top: -1850px;
+	border: 1px solid darkgrey;
+	left: 46%;
+}
+
+.image-two {
+	position: fixed;
+	z-index: -1;
+	width: 450px;
+	top: -450px;
+	left: 36%;
+}
+
+.hello {
+	background-color: rgba(224, 224, 224, 0.7);
+	width: 65%;
+	margin: auto;
+	padding: 3px 30px 4px 30px;
+	border: 2px solid rgb(80, 44, 14);
+	border-radius: 4px;
+}
+
+.welcome-box {
+	width: 90%;
+	padding: 5px 15px 5px 15px;
+	margin: auto;
+	margin-top: 9px;
+	background-color: rgba(224, 224, 224, 0.88);
+	text-align: left;
+	border: 2px solid rgb(80, 44, 14);
+	border-radius: 6px;
+}
+
+.welcome-text {
+	padding-top: 5px;
+}
+
+.hira-text {
+	font-size: 80%;
+}
+
+.go-to-convert {
+	margin-top: 8px;
+}
+
 .converted {
-	font-size: 40px;
-	color: red;
-	font-family: Hiragino Kaku Gothic Pro;
+	font-size: 20px;
+	text-align: left;
+	width: 90%;
+	margin: auto;
+	margin-top: 9px;
+	padding: 0px 10px 0 10px;
+	background-color: rgba(224, 224, 224, 0.86);
+	border: 1px solid rgb(80, 44, 14);
+	border-radius: 5px;
+	/* font-family: Hiragino Kaku Gothic Pro;*/
+}
+
+.goo {
+	text-align: left;
+	margin-left: 22px;
+	margin-top: 11px;
 }
 
 .goosupport {
 	width: 150px;
+	background-color: white;
+	padding: 1px 8px 3px 8px;
+	text-align: left;
+	border: 2px solid rgb(80, 44, 14);
+	border-radius: 3px;
 }
