@@ -6,12 +6,12 @@ angular.module('myApp', ['ui.router'])
     $stateProvider
       .state('welcome', {
         url: '/',
-        templateUrl: '../welcome.html',
+        templateUrl: './welcome.html',
         controller: 'mainCtrl'
       })
       .state('converter', {
         url: '/converter',
-        templateUrl: '../converter.html',
+        templateUrl: './converter.html',
         controller: 'mainCtrl'
       })
       .state('options', {
